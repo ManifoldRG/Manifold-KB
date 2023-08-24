@@ -4,7 +4,18 @@ Review author: Pranav Guruprasad
 
 **Summary:**
 
-The authors of this paper present an agent that combines multiple LLMs to carry out scientific experiments end-to-end. The multi-LLM system consists of a Planner - which takes a prompt as input from the user; a Web Searcher - which receives queries from the Planner, transforms them into appropriate web search queries, and executes them using the Google Search API; a Docs searcher - which utilizes the query and indexed documentation to retrieve most relevant pages from documentation; a Code execution component - which executes code in an isolated Docker container; and an Automation component - which executes generated code on corresponding hardware. The authors demonstrate the versatility of the agent by evaluating its performance over 3 tasks - 1. Searching through extensive documentation, 2. Precisely controlling liquid handling instruments, 3. Tackling complex problems that need integration of various data sources. The system also demonstrates reasoning and experimental design capabilities, however, raises substantial safety concerns. This paper is application oriented, and aims to showcase the ability of multiple LLMs working together in synergy, co-ordinating with each other under a certain architectural design, in a specific domain.
+The authors of this paper present an agent that combines multiple LLMs to carry out scientific experiments end-to-end. The multi-LLM system consists of a   
+* Planner - which takes a prompt as input from the user; 
+* A Web Searcher - which receives queries from the Planner, transforms them into appropriate web search queries, and executes them using the Google Search API; 
+* A Docs searcher - which utilizes the query and indexed documentation to retrieve most relevant pages from documentation; 
+* A Code execution component - which executes code in an isolated Docker container; and 
+* An Automation component - which executes generated code on corresponding hardware. 
+
+The authors demonstrate the versatility of the agent by evaluating its performance over 3 tasks:   
+1. Searching through extensive documentation,   
+2. Precisely controlling liquid handling instruments,   
+3. Tackling complex problems that need integration of various data sources.   
+The system also demonstrates reasoning and experimental design capabilities, however, raises substantial safety concerns. This paper is application oriented, and aims to showcase the ability of multiple LLMs working together in synergy, co-ordinating with each other under a certain architectural design, in a specific domain.
 
 **Motivation:**
 
