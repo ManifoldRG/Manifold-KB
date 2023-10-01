@@ -16,7 +16,7 @@ Another core component of the Reflexion process is memory, consisting of short-t
 
 The Reflexion process:
 
-- 	Actor produces a trajectory by interacting with the environment 
+- 	Actor produces a trajectory by interacting with the environment, and utilizing the short-term (most recent trajectory) and long-term (past self-reflections) memory components. 
 - 	Evaluator produces a score based on the generated trajectory. This score is only a scalar reward.
 - 	Self-Reflection model analyzes the trajectory and scalar reward, to produce a verbal summary, which is then stored in memory.
 
